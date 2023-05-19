@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucUSER_Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:SMT="clr-namespace:SMT.Alentejo_SLA"
+    xmlns:m="clr-namespace:SilverlightMouseSupport;assembly=SilverlightMouseSupport"
+    Width="930" Height="540">
+    <Canvas x:Name="LayoutRoot" Background="Black">
+    	<Button Height="52" Width="202" Canvas.Left="261" Canvas.Top="202" Content="START NEW RENDER" x:Name="btnStartJob" Cursor="Hand" FontSize="14"/>
+    	<Button Height="52" Width="202" Content="BROWSE RENDERS" x:Name="btnReviewJobs" Cursor="Hand" Canvas.Left="261" Canvas.Top="263" FontSize="14" />
+        <HyperlinkButton x:Name="hlDownloadFile" Content="Download File" Visibility="Collapsed"  />
+        <ListBox x:Name="lbRecentJobs" Height="112.75" Width="202" Canvas.Left="496" Canvas.Top="202" Background="#FF858585" Foreground="#FFFFFFFF"/>
+        <Canvas x:Name="cvImageWaitAnimation" Width="64" Height="64" Canvas.Top="278.083" Canvas.Left="647" Background="Transparent">
+		  <Canvas.RenderTransform>
+		    <ScaleTransform CenterX="0" CenterY="0" ScaleX=".5" ScaleY=".5" />
+		  </Canvas.RenderTransform>
+  		</Canvas>
+    </Canvas>
+    </UserControl>

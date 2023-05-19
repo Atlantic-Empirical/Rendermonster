@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucUploadFiles"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Canvas x:Name="LayoutRoot" Background="White">
+    	<Button x:Name="btnSelectFile" Height="27" HorizontalAlignment="Left" Margin="41,34,0,0" VerticalAlignment="Top" Width="85" Content="Select File"/>
+    	<Button x:Name="btnAbortUploads" Height="27" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Content="Abort Uploads" Canvas.Top="68" Canvas.Left="41"/>
+    	<TextBlock Height="50" x:Name="txtProgress" Width="113" Canvas.Left="158" Canvas.Top="41" Text="0%" TextWrapping="Wrap" FontSize="36" TextAlignment="Right"/>
+
+    </Canvas>
+</UserControl>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Alentejo.JobFileTransferManager
+</name>
+</assembly>
+<members>
+<member name="P:SMT.Alentejo.JobFileTransferManager.JobFileTransferManager_Main.cTransferJob.IsSuccessful">
+	<summary>
+ Only should be called after calling IsComplete becauase this will return False 
+ while uploads are still running.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

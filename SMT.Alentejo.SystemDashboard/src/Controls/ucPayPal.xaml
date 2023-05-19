@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="ucPayPal"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="482" Width="890">
+    <Grid>
+        <TextBlock Height="20" Margin="10,10,0,0" Name="TextBlock1" Text="Balance =" TextAlignment="Right" VerticalAlignment="Top" HorizontalAlignment="Left" Width="78" />
+        <TextBlock Height="20" Margin="94,10,0,0" Name="tbPayPalBalance" Text="[]" VerticalAlignment="Top" HorizontalAlignment="Left" Width="125" />
+        <ListView Margin="0,118,0,0" Name="lvPayPalTransactions" />
+        <Button Height="23" HorizontalAlignment="Right" Name="btnUpdate" VerticalAlignment="Top" Width="75" Margin="0,2,2,0">Update</Button>
+    </Grid>
+</UserControl>

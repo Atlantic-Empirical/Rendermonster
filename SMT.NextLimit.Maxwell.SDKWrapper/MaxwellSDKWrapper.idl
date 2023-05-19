@@ -1,0 +1,36 @@
+// MaxwellSDKWrapper.idl : IDL source for MaxwellSDKWrapper
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MaxwellSDKWrapper.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(341E0AAE-F314-4794-8517-452E47082886),
+	dual,
+	nonextensible,
+	helpstring("IWrapper Interface"),
+	pointer_default(unique)
+]
+interface IWrapper : IDispatch{
+};
+[
+	uuid(7C4C2825-9656-48AE-952A-A1099CB4A437),
+	version(1.0),
+	helpstring("MaxwellSDKWrapper 1.0 Type Library")
+]
+library MaxwellSDKWrapperLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(5E54DFA4-65C5-4FC3-AEC0-C1A66D4E7B46),
+		helpstring("Wrapper Class")
+	]
+	coclass Wrapper
+	{
+		[default] interface IWrapper;
+	};
+};

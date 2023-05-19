@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://runuh.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://runuh.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://runuh.com/">
+      <s:element name="GetUserInfoLite">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionToken" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="outLiteUserInfo" type="tns:cSMT_ATJ_User_Lite" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="cSMT_ATJ_User_Lite">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserInfoLiteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetUserInfoLiteResult" type="tns:eAlentejoAPIResultCode" />
+            <s:element minOccurs="0" maxOccurs="1" name="outLiteUserInfo" type="tns:cSMT_ATJ_User_Lite" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="eAlentejoAPIResultCode">
+        <s:restriction base="s:string">
+          <s:enumeration value="GenericFailure" />
+          <s:enumeration value="Success" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetUserCredit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionToken" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="outUserCredit" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserCreditResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetUserCreditResult" type="tns:eAlentejoAPIResultCode" />
+            <s:element minOccurs="1" maxOccurs="1" name="outUserCredit" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAddCreditUrl">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionToken" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AmountToAdd" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="outUrl" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAddCreditUrlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetAddCreditUrlResult" type="tns:eAlentejoAPIResultCode" />
+            <s:element minOccurs="0" maxOccurs="1" name="outUrl" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModifyUserProperties">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionToken" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NewProperties" type="tns:cSMT_ATJ_User" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="cSMT_ATJ_User">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SCHEMA_VERSION" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Created_UTCTicks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastLogin_UTCTicks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Balance_Encrypted" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PasswordHash" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Timezone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastLoginIpAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PostalCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmailAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhoneOffice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhoneMobile" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Website" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PayPalAccountEmailAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmailNotificationLevel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfCores" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RenderLevels" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxRenderingTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxCost" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OutputType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RenderEngine" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ModifyUserPropertiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ModifyUserPropertiesResult" type="tns:eAlentejoAPIResultCode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UsernameExists">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="outExists" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UsernameExistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UsernameExistsResult" type="tns:eAlentejoAPIResultCode" />
+            <s:element minOccurs="1" maxOccurs="1" name="outExists" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Signup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="tns:cSMT_ATJ_User" />
+            <s:element minOccurs="0" maxOccurs="1" name="outNewUserId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SignupResult" type="tns:eAlentejoAPIResultCode" />
+            <s:element minOccurs="0" maxOccurs="1" name="outNewUserId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUserInfoLiteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserInfoLite" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoLiteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserInfoLiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserCreditSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserCredit" />
+  </wsdl:message>
+  <wsdl:message name="GetUserCreditSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAddCreditUrlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAddCreditUrl" />
+  </wsdl:message>
+  <wsdl:message name="GetAddCreditUrlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAddCreditUrlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModifyUserPropertiesSoapIn">
+    <wsdl:part name="parameters" element="tns:ModifyUserProperties" />
+  </wsdl:message>
+  <wsdl:message name="ModifyUserPropertiesSoapOut">
+    <wsdl:part name="parameters" element="tns:ModifyUserPropertiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="UsernameExistsSoapIn">
+    <wsdl:part name="parameters" element="tns:UsernameExists" />
+  </wsdl:message>
+  <wsdl:message name="UsernameExistsSoapOut">
+    <wsdl:part name="parameters" element="tns:UsernameExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SignupSoapIn">
+    <wsdl:part name="parameters" element="tns:Signup" />
+  </wsdl:message>
+  <wsdl:message name="SignupSoapOut">
+    <wsdl:part name="parameters" element="tns:SignupResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UserAPISoap">
+    <wsdl:operation name="GetUserInfoLite">
+      <wsdl:input message="tns:GetUserInfoLiteSoapIn" />
+      <wsdl:output message="tns:GetUserInfoLiteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserCredit">
+      <wsdl:input message="tns:GetUserCreditSoapIn" />
+      <wsdl:output message="tns:GetUserCreditSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAddCreditUrl">
+      <wsdl:input message="tns:GetAddCreditUrlSoapIn" />
+      <wsdl:output message="tns:GetAddCreditUrlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyUserProperties">
+      <wsdl:input message="tns:ModifyUserPropertiesSoapIn" />
+      <wsdl:output message="tns:ModifyUserPropertiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UsernameExists">
+      <wsdl:input message="tns:UsernameExistsSoapIn" />
+      <wsdl:output message="tns:UsernameExistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Signup">
+      <wsdl:input message="tns:SignupSoapIn" />
+      <wsdl:output message="tns:SignupSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UserAPISoap" type="tns:UserAPISoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserInfoLite">
+      <soap:operation soapAction="http://runuh.com/GetUserInfoLite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserCredit">
+      <soap:operation soapAction="http://runuh.com/GetUserCredit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddCreditUrl">
+      <soap:operation soapAction="http://runuh.com/GetAddCreditUrl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyUserProperties">
+      <soap:operation soapAction="http://runuh.com/ModifyUserProperties" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsernameExists">
+      <soap:operation soapAction="http://runuh.com/UsernameExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Signup">
+      <soap:operation soapAction="http://runuh.com/Signup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UserAPISoap12" type="tns:UserAPISoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserInfoLite">
+      <soap12:operation soapAction="http://runuh.com/GetUserInfoLite" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserCredit">
+      <soap12:operation soapAction="http://runuh.com/GetUserCredit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAddCreditUrl">
+      <soap12:operation soapAction="http://runuh.com/GetAddCreditUrl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyUserProperties">
+      <soap12:operation soapAction="http://runuh.com/ModifyUserProperties" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsernameExists">
+      <soap12:operation soapAction="http://runuh.com/UsernameExists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Signup">
+      <soap12:operation soapAction="http://runuh.com/Signup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserAPI">
+    <wsdl:port name="UserAPISoap" binding="tns:UserAPISoap">
+      <soap:address location="http://localhost:51606/User/UserAPI.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UserAPISoap12" binding="tns:UserAPISoap12">
+      <soap12:address location="http://localhost:51606/User/UserAPI.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

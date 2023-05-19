@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/SMT.Alentejo.Web.vbproj/global.asax" hash="18c20ed6" filehash="fffff8f42ca9bf8a" flags="150000" assembly="SMT.Alentejo.Web.vbproj_deploy" type="ASP._global_asax">
+  <filedeps>
+    <filedep name="/SMT.Alentejo.Web.vbproj/global.asax" />
+  </filedeps>
+</preserve>

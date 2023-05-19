@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Alentejo.SystemDashboard
+</name>
+</assembly>
+<members>
+<member name="M:SMT.Alentejo.SystemDashboard.ucJobSelector.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucJobSelector">
+	<summary>
+ucJobSelector
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucUserSelector.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucUserSelector">
+	<summary>
+ucUserSelector
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucSDBManager.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucSDBManager">
+	<summary>
+ucSDBManager
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucJobViewerConsoleItem.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucJobViewerConsoleItem">
+	<summary>
+ucJobViewerConsoleItem
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucJobViewer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucJobViewer">
+	<summary>
+ucJobViewer
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucSystemOverview.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucSystemOverview">
+	<summary>
+ucSystemOverview
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucDynamicDeploy.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucDynamicDeploy">
+	<summary>
+ucDynamicDeploy
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucPayPal.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucPayPal">
+	<summary>
+ucPayPal
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucUserViewer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucUserViewer">
+	<summary>
+ucUserViewer
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucWaitAnimation.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucWaitAnimation">
+	<summary>
+ucWaitAnimation
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.ucInstanceList.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.ucInstanceList">
+	<summary>
+ucInstanceList
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.JobViewer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.JobViewer">
+	<summary>
+JobViewer
+</summary>
+</member><member name="M:SMT.Alentejo.SystemDashboard.SystemDashboard_Main.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.SystemDashboard_Main">
+	<summary>
+SystemDashboard_Main
+</summary>
+</member><member name="P:SMT.Alentejo.SystemDashboard.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:SMT.Alentejo.SystemDashboard.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:SMT.Alentejo.SystemDashboard.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:SMT.Alentejo.SystemDashboard.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:SMT.Alentejo.SystemDashboard.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:SMT.Alentejo.SystemDashboard.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucUSER_Billing"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:SMT="clr-namespace:SMT.Alentejo_SLA"
+ 	xmlns:System="clr-namespace:System;assembly=mscorlib"
+    Width="930" Height="540">
+    <Canvas x:Name="LayoutRoot" Background="Black">
+        <TextBlock Height="Auto" Width="Auto" Canvas.Left="21" Canvas.Top="6" TextWrapping="Wrap" FontSize="24" FontWeight="Bold" Foreground="#FFFFFFFF" Text="Billing"/>
+        <TextBlock Height="20.364" Width="Auto" FontFamily="Portable User Interface" FontWeight="Bold" Foreground="#FFFFFFFF" Text="CURRENT BALANCE:" TextWrapping="Wrap" FontSize="14" Canvas.Left="11" Canvas.Top="51.5"/>
+        <TextBlock Height="20.364" Width="Auto" FontFamily="Portable User Interface" FontWeight="Normal" Foreground="#FFFFFFFF" Text="[]" TextWrapping="Wrap" FontSize="14" Canvas.Left="180" Canvas.Top="51.5" x:Name="tbCurrentBalance"/>
+        <TextBlock Height="20.364" Width="Auto" FontFamily="Portable User Interface" FontWeight="Bold" Foreground="#FFFFFFFF" Text="ADD CREDIT:" TextWrapping="Wrap" FontSize="14" Canvas.Left="11" Canvas.Top="79.5"/>
+        <ComboBox Height="23" Width="45" Canvas.Left="122" Canvas.Top="79" SelectedIndex="0" IsDropDownOpen="False" x:Name="cbCurrency">
+				<System:String>€</System:String>
+				<System:String>$</System:String>
+		</ComboBox>
+        <TextBox Height="23" Width="76" Canvas.Left="172" Canvas.Top="79" Text="" TextWrapping="Wrap" x:Name="txtCreditToAdd"/>
+        <Button Height="23" Width="204" Canvas.Left="254" Canvas.Top="79" Content="Go to PayPal to Make Payment" x:Name="btnGoToPayPal"/>
+        <ListBox Height="239" Width="892" Canvas.Left="18" Canvas.Top="123" x:Name="lbAccountTransactions"/>
+
+    </Canvas>
+</UserControl>

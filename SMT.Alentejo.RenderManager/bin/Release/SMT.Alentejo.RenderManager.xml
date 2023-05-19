@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Alentejo.RenderManager
+</name>
+</assembly>
+<members>
+<member name="F:SMT.Alentejo.RenderManager.RenderManager_Main._UniSampleLevel">
+	<summary>
+ "non-cooperative" sample level (when there is only one node doing the rendering - this one)
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SMT.Alentejo.RenderManager.RenderManager_Main.job_loop_interval">
+	<summary>
+ Interval in seconds between checks of storage for jobs assigned to this instance.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SMT.Alentejo.RenderManager.RenderManager_Main.RENDER_NODE_STATUS_TIMER">
+	<summary>
+ Timer used to loop while waiting for node instances to complete rendering.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SMT.Alentejo.RenderManager.RenderManager_Main.PerformMerge(System.Boolean)">
+	<summary>
+ Merges the MXIs from each of the nodes into one MXI, gets the sample level and an image.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SMT.Alentejo.RenderManager.RenderManager_Main.AssessAndCoordinateRenderNodes">
+	<summary>
+ Setup the array of paths to the shared folders on each of the associated render nodes.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SMT.Alentejo.RenderManager.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMT.Alentejo.RenderManager.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMT.Alentejo.RenderManager.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

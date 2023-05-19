@@ -1,0 +1,14 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.Alentejo.InstanceHealthService\bin\Debug\smt.alentejo.instancehealthservice.exe assembly's progress.
+The file is located at T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.Alentejo.InstanceHealthService\bin\Debug\smt.alentejo.instancehealthservice.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.Alentejo.InstanceHealthService\bin\Debug\smt.alentejo.instancehealthservice.exe assembly's progress.
+The file is located at T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.Alentejo.InstanceHealthService\bin\Debug\smt.alentejo.instancehealthservice.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.

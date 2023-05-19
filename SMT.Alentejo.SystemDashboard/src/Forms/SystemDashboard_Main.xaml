@@ -1,0 +1,70 @@
+﻿<Window x:Class="SystemDashboard_Main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:SMT="clr-namespace:SMT.Alentejo.SystemDashboard"
+    Title="SMT Alentejo - System Dashboard" Height="600" Width="930" ResizeMode="CanMinimize">
+    <Canvas>
+        <TabControl Canvas.Left="0" Canvas.Top="0" Height="545" Name="tcMain" Width="908">
+            <TabItem Header="OVERVIEW" Name="tpOverview">
+                <Canvas>
+                    <SMT:ucSystemOverview Height="512" Width="898" x:Name="ucSystemOverview" />
+                </Canvas>
+            </TabItem>
+            <TabItem Header="USERS" Name="tpUserActivity">
+                <Canvas>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto" MinWidth="4"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <SMT:ucUserSelector Grid.Column="0" Width="900" x:Name="userSelector"/>
+                        <GridSplitter Grid.Column="1" ResizeBehavior="PreviousAndNext" Width="4" VerticalAlignment="Stretch"/>
+                        <SMT:ucUserViewer x:Name="userViewer" Grid.Column="2" Height="512" Width="898" Canvas.Left="0" Canvas.Top="0" />
+                    </Grid>
+                </Canvas>
+            </TabItem>
+            <TabItem Header="JOBS" Name="tpJobs" />
+            <TabItem Header="INSTANCES" Name="tpInstances">
+                <SMT:ucInstanceList Height="512" Width="898" x:Name="InstanceList" />
+            </TabItem>
+            <TabItem Header="SYSTEM HEALTH" Name="tpSystemHealth" />
+            <TabItem Header="AWS" Name="tpAWS">
+                <Grid>
+                    <TabControl Margin="0,0,0,0" Name="tcAWS">
+                        <TabItem Header="SDB" Name="tpSDB">
+                            <SMT:ucSDBManager />
+                        </TabItem>
+                        <TabItem Header="EC2" Name="tpEC2">
+                            <Grid />
+                        </TabItem>
+                        <TabItem Header="S3" Name="tpS3">
+                            <Grid />
+                        </TabItem>
+                        <TabItem Header="SQS" Name="tpSQS">
+                            <Grid />
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="DEPLOYMENT" Name="tpDynamicDeployment">
+                <SMT:ucDynamicDeploy />
+            </TabItem>
+            <TabItem Header="FINANCE" Name="tpFinance">
+                <Grid>
+                    <TabControl Margin="0,0,0,0" Name="tcFinance">
+                        <TabItem Header="Transaction Overview" Name="tpTransactionsOverview">
+                            <Label Height="200" Name="Label1" Width="Auto">Here we'll have a list of all transactions since beginning of the month. Also here will be functionality to manually set a user's balance.</Label>
+                        </TabItem>
+                        <TabItem Header="PayPal" Name="tpPayPal">
+                            <SMT:ucPayPal x:Name="PayPal" Margin="0,0,0,0" />
+                        </TabItem>
+                        <TabItem Header="User Balance" Name="tpUserBalance">
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StatusBar Canvas.Left="0" Canvas.Top="545" Height="17" Name="sbMain" Width="908" />
+    </Canvas>
+</Window>

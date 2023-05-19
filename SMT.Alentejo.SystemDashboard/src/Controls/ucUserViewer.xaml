@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ucUserViewer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="898" Height="512"
+    xmlns:SMT="clr-namespace:SMT.Alentejo.SystemDashboard">
+    <Canvas>
+        <Path x:Name="ptCloseUser" Cursor="Hand" Data="M 4 0 L 0 4 4 10 Z"
+	        	StrokeThickness="7" 
+	        	StrokeLineJoin="Round" 
+	        	Stroke="#FF626060" 
+	        	Canvas.Left="5.994" Canvas.Top="5.328" Height="19.98" Width="14.319" ToolTip="Close this user" />
+        <TextBlock Canvas.Left="20.646" Canvas.Top="0" Height="26" Name="tbUserHeader" Width="877.455" Text="[]" FontWeight="Bold" FontSize="16" />
+        <TabControl Canvas.Left="0" Canvas.Top="22" Height="490" Name="TabControl1" Width="898">
+            <TabItem Header="User Overview" Name="tpUserOverview">
+                <Canvas>
+                </Canvas>
+            </TabItem>
+            <TabItem Header="Jobs" Name="tpJobs">
+                <SMT:ucJobSelector Grid.Column="0" Width="880" x:Name="jobSelector"/>
+                <!--<Canvas>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto" MinWidth="4"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <GridSplitter Grid.Column="1" ResizeBehavior="PreviousAndNext" Width="4" VerticalAlignment="Stretch"/>
+                        <SMT:ucJobViewer Grid.Column="2" x:Name="jobViewer" />
+                    </Grid>
+                </Canvas>-->
+            </TabItem>
+            <TabItem Header="Billing" Name="tpBilling" />
+            <TabItem Header="Notes" Name="tpNotes" />
+        </TabControl>
+    </Canvas>
+</UserControl>

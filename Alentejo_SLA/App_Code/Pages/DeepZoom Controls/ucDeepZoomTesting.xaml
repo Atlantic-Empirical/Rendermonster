@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucDeepZoomTesting"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <!--<MultiScaleImage x:Name="msi" Source="../../../GeneratedImages/dzc_output.xml"/>-->
+        <MultiScaleImage x:Name="msi" Source="../../../DeepZoomScratch/a8d51fd8-fbba-4a0c-bc69-e2751a233ec8/dd190a01-d17d-4198-b350-256a2e4dfce6/collection_images/dd190a01-d17d-4198-b350-256a2e4dfce6.xml"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://rm.seqmt.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://rm.seqmt.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://rm.seqmt.com/">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PasswordHash" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Logout">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogoutResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UsernameExists">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UsernameExistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UsernameExistsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionToken" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="tns:cSMT_ATJ_User" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="cSMT_ATJ_User">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SCHEMA_VERSION" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Created_UTCTicks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastLogin_UTCTicks" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Balance_Encrypted" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PasswordHash" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Timezone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastLoginIpAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address3" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PostalCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmailAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhoneOffice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PhoneMobile" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Website" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PayPalAccountEmailAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmailNotificationLevel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumberOfCores" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RenderLevels" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxRenderingTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaxCost" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OutputType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RenderEngine" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillingType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SaveUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClientIP">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetClientIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetClientIPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInfoLite">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserInfoLiteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserInfoLiteResult" type="tns:cSMT_ATJ_User_Lite" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="cSMT_ATJ_User_Lite">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Company" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserBalance">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionToken" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserBalanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetUserBalanceResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapIn">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapOut">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="UsernameExistsSoapIn">
+    <wsdl:part name="parameters" element="tns:UsernameExists" />
+  </wsdl:message>
+  <wsdl:message name="UsernameExistsSoapOut">
+    <wsdl:part name="parameters" element="tns:UsernameExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveUserSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveUser" />
+  </wsdl:message>
+  <wsdl:message name="SaveUserSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetClientIPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetClientIP" />
+  </wsdl:message>
+  <wsdl:message name="GetClientIPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetClientIPResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoLiteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserInfoLite" />
+  </wsdl:message>
+  <wsdl:message name="GetUserInfoLiteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserInfoLiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserBalanceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserBalance" />
+  </wsdl:message>
+  <wsdl:message name="GetUserBalanceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserBalanceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AlentejoAuthServiceSoap">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:input message="tns:LogoutSoapIn" />
+      <wsdl:output message="tns:LogoutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UsernameExists">
+      <wsdl:input message="tns:UsernameExistsSoapIn" />
+      <wsdl:output message="tns:UsernameExistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveUser">
+      <wsdl:input message="tns:SaveUserSoapIn" />
+      <wsdl:output message="tns:SaveUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClientIP">
+      <wsdl:input message="tns:GetClientIPSoapIn" />
+      <wsdl:output message="tns:GetClientIPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoLite">
+      <wsdl:input message="tns:GetUserInfoLiteSoapIn" />
+      <wsdl:output message="tns:GetUserInfoLiteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserBalance">
+      <wsdl:input message="tns:GetUserBalanceSoapIn" />
+      <wsdl:output message="tns:GetUserBalanceSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AlentejoAuthServiceSoap" type="tns:AlentejoAuthServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://rm.seqmt.com/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://rm.seqmt.com/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsernameExists">
+      <soap:operation soapAction="http://rm.seqmt.com/UsernameExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveUser">
+      <soap:operation soapAction="http://rm.seqmt.com/SaveUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClientIP">
+      <soap:operation soapAction="http://rm.seqmt.com/GetClientIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoLite">
+      <soap:operation soapAction="http://rm.seqmt.com/GetUserInfoLite" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserBalance">
+      <soap:operation soapAction="http://rm.seqmt.com/GetUserBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AlentejoAuthServiceSoap12" type="tns:AlentejoAuthServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://rm.seqmt.com/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap12:operation soapAction="http://rm.seqmt.com/Logout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UsernameExists">
+      <soap12:operation soapAction="http://rm.seqmt.com/UsernameExists" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveUser">
+      <soap12:operation soapAction="http://rm.seqmt.com/SaveUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClientIP">
+      <soap12:operation soapAction="http://rm.seqmt.com/GetClientIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoLite">
+      <soap12:operation soapAction="http://rm.seqmt.com/GetUserInfoLite" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserBalance">
+      <soap12:operation soapAction="http://rm.seqmt.com/GetUserBalance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AlentejoAuthService">
+    <wsdl:port name="AlentejoAuthServiceSoap" binding="tns:AlentejoAuthServiceSoap">
+      <soap:address location="http://localhost:49365/Services/AlentejoAuthService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AlentejoAuthServiceSoap12" binding="tns:AlentejoAuthServiceSoap12">
+      <soap12:address location="http://localhost:49365/Services/AlentejoAuthService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

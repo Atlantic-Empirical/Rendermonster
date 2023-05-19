@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B29996A-6928-4987-A041-17EF1946D6F2}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SMT.Alentejo_SLA</RootNamespace>
+    <AssemblyName>SMT.Alentejo_SLA</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Alentejo_SLA.xap</XapFilename>
+    <SilverlightManifestTemplate>My Project\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>SMT.Alentejo_SLA.App</SilverlightAppEntry>
+    <TestPageFileName>TestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>false</ThrowErrorsInValidation>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <MyType>Empty</MyType>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DocumentationFile>SMT.Alentejo_SLA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DefineConstants>SILVERLIGHT=1</DefineConstants>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DocumentationFile>SMT.Alentejo_SLA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DefineConstants>SILVERLIGHT=1</DefineConstants>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Windows.Controls, Version=2.0.21024.1838, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Xceed.Http.Silverlight, Version=1.0.8577.11540, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL" />
+    <Compile Include="App_Code\Pages\Dialogs\ucMessageBox.xaml.vb">
+      <DependentUpon>ucMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Job Browsing Controls\ucJobBrowser.xaml.vb">
+      <DependentUpon>ucJobBrowser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Job Submission Controls\ucRenderJobOptions_Alentejo.xaml.vb">
+      <DependentUpon>ucRenderJobOptions_Alentejo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Job Submission Controls\ucRenderJobOptions_General.xaml.vb">
+      <DependentUpon>ucRenderJobOptions_General.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Job Submission Controls\ucRenderJobOptions_Maxwell.xaml.vb">
+      <DependentUpon>ucRenderJobOptions_Maxwell.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Job Viewer Controls\ucJobViewer.xaml.vb">
+      <DependentUpon>ucJobViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\ucUSER_SubmitRenderJob.xaml.vb">
+      <DependentUpon>ucUSER_SubmitRenderJob.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\usUSER_Home.xaml.vb">
+      <DependentUpon>usUSER_Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\ucSignup.xaml.vb">
+      <DependentUpon>ucSignup.xaml</DependentUpon>
+    </Compile>
+    <Page Include="App_Code\Pages\Dialogs\ucMessageBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Job Browsing Controls\ucJobBrowser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Job Submission Controls\ucRenderJobOptions_Alentejo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Job Submission Controls\ucRenderJobOptions_General.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Job Submission Controls\ucRenderJobOptions_Maxwell.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Job Viewer Controls\ucJobViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\ucUSER_SubmitRenderJob.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\usUSER_Home.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\ucSignup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Xml" />
+    <Import Include="System.Net" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Ink" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Animation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.vb">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Countries.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\cUserProfile.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\DataHash.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\FONTS.vb" />
+    <Compile Include="App_Code\GeneralShared.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\GLOBAL.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\IsolatedStorage.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\MouseWheelHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\ResourceAccess.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\Serialization.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="App_Code\WebServiceClients.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileUpload\cUploader.vb" />
+    <Compile Include="FileUpload\FileUploadCommon.vb" />
+    <Compile Include="FileUpload\StaticUploads.vb" />
+    <Compile Include="Page.xaml.vb">
+      <DependentUpon>Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="App_Code\Pages\DeepZoom Controls\ucDeepZoomViewer.xaml.vb">
+      <DependentUpon>ucDeepZoomViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\DeepZoom Controls\ucImageBrowser.xaml.vb">
+      <DependentUpon>ucImageBrowser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\DeepZoom Controls\ucWatermark.xaml.vb">
+      <DependentUpon>ucWatermark.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Dialogs\InputBox_dlg.xaml.vb">
+      <DependentUpon>InputBox_dlg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Job Browsing Controls\elJobItemRow.xaml.vb">
+      <DependentUpon>elJobItemRow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\DeepZoom Controls\ucDeepZoomTesting.xaml.vb">
+      <DependentUpon>ucDeepZoomTesting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\Job Viewer Controls\ucJobViewerConsoleItem.xaml.vb">
+      <DependentUpon>ucJobViewerConsoleItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\ucHome.xaml.vb">
+      <DependentUpon>ucHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\ucLoginPanel.xaml.vb">
+      <DependentUpon>ucLoginPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\ucUSER_Billing.xaml.vb">
+      <DependentUpon>ucUSER_Billing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Pages\WaitAnimation\ucWaitAnimation.xaml.vb">
+      <DependentUpon>ucWaitAnimation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AlentejoAuthService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AlentejoJobService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\DeepZoom Controls\ucDeepZoomViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\DeepZoom Controls\ucImageBrowser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\DeepZoom Controls\ucWatermark.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Dialogs\InputBox_dlg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Job Browsing Controls\elJobItemRow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\DeepZoom Controls\ucDeepZoomTesting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\Job Viewer Controls\ucJobViewerConsoleItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\ucHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\ucLoginPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\ucUSER_Billing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="App_Code\Pages\WaitAnimation\ucWaitAnimation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\HelveticaExtLt.ttf">
+    </Resource>
+    <Resource Include="Fonts\impact.ttf" />
+    <None Include="My Project\AppManifest.xml" />
+    <EmbeddedResource Include="Resources\Countries.csv" />
+    <Resource Include="Fonts\HelveticaExtThn.ttf">
+    </Resource>
+    <None Include="Service References\AlentejoAuthService\AlentejoAuthService.wsdl" />
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.GetClientIPResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.GetUserBalanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.GetUserInfoLiteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.LoginResponse.datasource">
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.LoginResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.LogoutResponse.datasource">
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.LogoutResponse1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.SaveUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoAuthService\SMT.Alentejo_SLA.AlentejoAuthService.UsernameExistsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoJobService\AlentejoJobService.wsdl" />
+    <None Include="Service References\AlentejoJobService\AlentejoJobService.disco" />
+    <None Include="Service References\AlentejoJobService\configuration91.svcinfo" />
+    <None Include="Service References\AlentejoJobService\configuration.svcinfo" />
+    <None Include="Service References\AlentejoJobService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.datasource">
+    </None>
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.datasource">
+    </None>
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo.datasource">
+    </None>
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.datasource">
+    </None>
+    <Resource Include="Graphics\DeepZoomButtons\fullscreen_hover.png" />
+    <Resource Include="Graphics\DeepZoomButtons\fullscreen_pressed.png" />
+    <Resource Include="Graphics\DeepZoomButtons\fullscreen_rest.png" />
+    <Resource Include="Graphics\DeepZoomButtons\home_hover.png" />
+    <Resource Include="Graphics\DeepZoomButtons\home_pressed.png" />
+    <Resource Include="Graphics\DeepZoomButtons\home_rest.png" />
+    <Resource Include="Graphics\DeepZoomButtons\zoomin_hover.png" />
+    <Resource Include="Graphics\DeepZoomButtons\zoomin_pressed.png" />
+    <Resource Include="Graphics\DeepZoomButtons\zoomin_rest.png" />
+    <Resource Include="Graphics\DeepZoomButtons\zoomout_hover.png" />
+    <Resource Include="Graphics\DeepZoomButtons\zoomout_pressed.png" />
+    <Resource Include="Graphics\DeepZoomButtons\zoomout_rest.png" />
+    <Resource Include="Graphics\Products\RenderMonster-name-left.png" />
+    <None Include="Service References\AlentejoJobService\SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AlentejoAuthService\AlentejoAuthService.disco" />
+    <None Include="Service References\AlentejoAuthService\configuration91.svcinfo" />
+    <None Include="Service References\AlentejoAuthService\configuration.svcinfo" />
+    <None Include="Service References\AlentejoAuthService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\Companies\SMT-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\Products\RenderMonster-name4.png" />
+    <Resource Include="Fonts\HelveticaExt.ttf">
+    </Resource>
+    <Resource Include="Fonts\HelveticaExtMed.ttf">
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AlentejoAuthService\" />
+    <WCFMetadataStorage Include="Service References\AlentejoJobService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libraries\Silverlight UI\Cooper.Silverlight.Controls\Cooper.Silverlight.Controls.csproj">
+      <Project>{74EFD5A3-FE23-4301-BDB9-A0770EA8A6B3}</Project>
+      <Name>Cooper.Silverlight.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

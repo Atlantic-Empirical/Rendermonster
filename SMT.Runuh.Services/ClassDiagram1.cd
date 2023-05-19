@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="SMT.Alentejo.Services.FileAPI">
+    <Position X="0.5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Files\FileAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMT.Alentejo.Services.GetFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Files\GetFile.ashx.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SMT.Alentejo.Services.PutFile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAgAABAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Files\PutFile.ashx.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SMT.Alentejo.Services.JobAPI">
+    <Position X="3.75" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AIEAAEACAgAAAAAAIAgAAAQQABAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Jobs\JobAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMT.Alentejo.Services.MaxwellAPI">
+    <Position X="0.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAhAAAAAAAAA=</HashCode>
+      <FileName>Rendering\MaxwellAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMT.Alentejo.Services.MentalRayAPI">
+    <Position X="3.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Rendering\MentalRayAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMT.Alentejo.Services.VRayAPI">
+    <Position X="6" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Rendering\VRayAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMT.Alentejo.Services.UserAPI">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAABAAAAAEAAAAAADAAAAAAAAAAABAA=</HashCode>
+      <FileName>User\UserAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMT.Alentejo.Services.AdminAPI">
+    <Position X="8.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAIAEAAA=</HashCode>
+      <FileName>Admin\AdminAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SMT.Alentejo.Services.SessionAPI">
+    <Position X="10.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Session\SessionAPI.asmx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="SMT.Alentejo.Services.SessionShared">
+    <Position X="0.5" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Session\SessionShared.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

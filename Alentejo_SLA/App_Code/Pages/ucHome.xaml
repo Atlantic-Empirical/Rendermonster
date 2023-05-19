@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucHome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:SMT="clr-namespace:SMT.Alentejo_SLA"
+    Width="930" Height="540">
+    <Canvas x:Name="LayoutRoot" Background="Black">
+     	<Button x:Name="btnSignup" Height="70" Width="166" Canvas.Left="628" Canvas.Top="213" Content="Signup!" Cursor="Hand" />
+		<SMT:ucLoginPanel x:Name="LoginControl" Canvas.Top="213" Canvas.Left="111"/>
+   </Canvas>
+</UserControl>

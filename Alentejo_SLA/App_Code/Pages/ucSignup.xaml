@@ -1,0 +1,129 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucSignup"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:SMT="clr-namespace:SMT.Alentejo_SLA"
+    Width="930" Height="540" xmlns:System="clr-namespace:System;assembly=mscorlib">
+    <Canvas x:Name="LayoutRoot" Background="Black">
+        <!--<Canvas.Resources>
+            <SMT:cSMT_ATJ_Validator x:Name="Validate"/>
+        </Canvas.Resources>-->
+        
+        <TextBlock Height="16" Width="Auto" Text="invite code" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="9.438" Canvas.Top="52"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="75" Canvas.Top="51" x:Name="txtInviteCode" />
+
+    	<TextBlock Height="24" Width="Auto" Canvas.Left="14.756" Canvas.Top="92.5" Text="username" TextWrapping="Wrap" Foreground="#FFFFFFFF"/>
+        <!--<TextBox Height="24" Width="195" Canvas.Left="75" Canvas.Top="89.5" TextWrapping="Wrap" x:Name="txtUserName" Text="{Binding UserName,Source {StaticResource Validate},Mode=TwoWay,NotifyOnValidationError=true,ValidatesOnExceptions=true}" />-->
+        <TextBox Height="24" Width="195" Canvas.Left="75" Canvas.Top="89.5" TextWrapping="Wrap" x:Name="txtUserName">
+            <!--<TextBox.Text>
+                <Binding Mode="TwoWay" Source="{StaticResource Validate}" 
+                     Path="UserName" NotifyOnValidationError="true" 
+                     ValidatesOnExceptions="true"/>
+            </TextBox.Text>-->
+        </TextBox>
+
+        <TextBlock Height="16" Width="Auto" Text="password" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="17.366" Canvas.Top="121"/>
+    	<PasswordBox Height="24" Width="195" Canvas.Left="75" Canvas.Top="119" x:Name="txtPassword"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="reenter pw" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="9.449" Canvas.Top="150.5"/>
+    	<PasswordBox Height="24" Width="195" Canvas.Left="75" Canvas.Top="148.5" x:Name="txtPasswordAgain"/>
+
+
+
+
+    	<TextBlock Height="16" Width="Auto" Text="firstname" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="302.049" Canvas.Top="52"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="360" Canvas.Top="51" x:Name="txtFirstName"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="lastname" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="304.004" Canvas.Top="82"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="360" Canvas.Top="80" x:Name="txtLastName"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="company" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="304.477" Canvas.Top="109.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="360" Canvas.Top="108.5" x:Name="txtCompany"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="website" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="312.469" Canvas.Top="137.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="360" Canvas.Top="136.5" x:Name="txtWebsite"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="email" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="324.618" Canvas.Top="167"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="360" Canvas.Top="165" x:Name="txtEmail"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="phone (m)" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="297.51" Canvas.Top="195.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="360" Canvas.Top="193.5" x:Name="txtPhoneM"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="phone (o)" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="300.51" Canvas.Top="223.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" x:Name="txtPhoneO" Canvas.Left="360" Canvas.Top="221.5"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="address" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="312.491" Canvas.Top="248.5"/>
+    	<TextBox Height="48" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="361" Canvas.Top="249.5" x:Name="txtAddress"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="city" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="335.92" Canvas.Top="304.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="361" Canvas.Top="302.5" x:Name="txtCity"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="state/province" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="275.963" Canvas.Top="332.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="361" Canvas.Top="330.5" x:Name="txtStateProvince"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="postal code" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="292.613" Canvas.Top="360.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="361" Canvas.Top="358.5" x:Name="txtPostalCode"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="country" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="313.646" Canvas.Top="390.5"/>
+    	<ComboBox Height="24" Width="195" Canvas.Left="361" Canvas.Top="387" x:Name="cbCountries">
+    	</ComboBox>
+
+
+
+
+	   	<TextBlock Height="16" Width="Auto" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="579.554" Canvas.Top="54" Text="Email For PayPal Invoicing" />
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="732" Canvas.Top="51" x:Name="txtEmailForPaypalInvoicing"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="renders per month?" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="615.5" Canvas.Top="82.5"/>
+    	<TextBox Height="24" Width="195" Text="" TextWrapping="Wrap" Canvas.Left="731.5" Canvas.Top="79.5" x:Name="txtRendersPerMonth"/>
+
+    	<TextBlock Height="16" Width="Auto" Text="preferred engine" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="631.5" Canvas.Top="110.5"/>
+    	<ComboBox Height="24" Width="195" Canvas.Left="731" Canvas.Top="108" x:Name="cbRenderEngine" SelectedIndex="0">
+    		<System:String>Maxwell</System:String>
+    		<System:String>V-Ray</System:String>
+    		<System:String>mentalray</System:String>
+    	</ComboBox>
+
+    	<TextBlock Height="16" Width="Auto" Text="timezone" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Left="673.5" Canvas.Top="141.5"/>
+    	<ComboBox Height="24" Width="195" Canvas.Left="731" Canvas.Top="137" x:Name="cbTimezone">
+    		<System:String>UTC-12:00</System:String>
+    		<System:String>UTC-11:00</System:String>
+    		<System:String>UTC-10:00</System:String>
+    		<System:String>UTC-9:00</System:String>
+    		<System:String>UTC-8:00</System:String>
+    		<System:String>UTC-7:00</System:String>
+    		<System:String>UTC-6:00</System:String>
+    		<System:String>UTC-5:00</System:String>
+    		<System:String>UTC-4:30</System:String>
+    		<System:String>UTC-4:00</System:String>
+    		<System:String>UTC-3:30</System:String>
+    		<System:String>UTC-3:00</System:String>
+    		<System:String>UTC-2:00</System:String>
+    		<System:String>UTC-1:00</System:String>
+    		<System:String>UTC</System:String>
+    		<System:String>UTC+1:00</System:String>
+    		<System:String>UTC+2:00</System:String>
+    		<System:String>UTC+3:00</System:String>
+    		<System:String>UTC+3:30</System:String>
+    		<System:String>UTC+4:00</System:String>
+    		<System:String>UTC+4:30</System:String>
+    		<System:String>UTC+5:00</System:String>
+    		<System:String>UTC+5:30</System:String>
+    		<System:String>UTC+5:45</System:String>
+    		<System:String>UTC+6:00</System:String>
+    		<System:String>UTC+6:30</System:String>
+    		<System:String>UTC+7:00</System:String>
+    		<System:String>UTC+8:00</System:String>
+    		<System:String>UTC+9:00</System:String>
+    		<System:String>UTC+9:30</System:String>
+    		<System:String>UTC+10:00</System:String>
+    		<System:String>UTC+11:00</System:String>
+    		<System:String>UTC+12:00</System:String>
+    		<System:String>UTC+13:00</System:String>
+    	</ComboBox>
+
+
+    	<Button Height="88" Width="188" Canvas.Left="736.5" Canvas.Top="448.5" Content="Signup" Cursor="Hand" x:Name="btnSignup"/>
+    	<TextBlock Height="Auto" Width="Auto" FontSize="24" FontWeight="Bold" FontFamily="Portable User Interface" FontStyle="Italic" Text="SignupForTheMonster" Foreground="White" Canvas.Left="7" />
+
+    </Canvas>
+</UserControl>

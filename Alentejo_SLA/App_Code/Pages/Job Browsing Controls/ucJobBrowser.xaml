@@ -1,0 +1,46 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:SMT="clr-namespace:SMT.Alentejo_SLA"
+	mc:Ignorable="d"
+	x:Class="SMT.Alentejo_SLA.ucJobBrowser"
+    Width="930" Height="540" xmlns:System="clr-namespace:System;assembly=mscorlib">
+    <Canvas x:Name="LayoutRoot" Background="Black">
+        <TextBlock Height="Auto" Width="Auto" FontSize="24" FontWeight="Normal" Text="BrowseRenderJobs" Foreground="White" Canvas.Left="7" x:Name="lblHeader" />
+    	<TextBlock Canvas.Left="9" Canvas.Top="42" Foreground="#FFFFFFFF" Text="Date Filter:" TextWrapping="Wrap" FontSize="12" x:Name="lblDateFilter"/>
+    	<ComboBox Height="22" x:Name="cbDateRange" Width="116" Canvas.Top="40" SelectedIndex="0" Canvas.Left="77" FontSize="12">
+    		<System:String>All</System:String>
+    		<System:String>Past 7 Days</System:String>
+    		<System:String>Past 30 Days</System:String>
+    		<System:String>Past 90 Days</System:String>
+    		<System:String>Past 365 Days</System:String>
+    		<System:String>Last Week</System:String>
+    		<System:String>Last Month</System:String>
+    		<System:String>Last Year</System:String>
+    		<System:String>This Week</System:String>
+    		<System:String>This Month</System:String>
+    		<System:String>This Year</System:String>
+    	</ComboBox>
+    	<TextBlock Foreground="#FFFFFFFF" Text="Status Filter:" TextWrapping="Wrap" Canvas.Left="220" Canvas.Top="42" FontSize="12" x:Name="lblStatusFilter"/>
+    	<ComboBox Height="22" x:Name="cbStatusFilter" Width="116" SelectedIndex="0" Canvas.Left="300" Canvas.Top="39" FontSize="12">
+    		<System:String>All</System:String>
+    		<System:String>Active</System:String>
+    		<System:String>Completed</System:String>
+    		<System:String>Archived</System:String>
+    	</ComboBox>
+    	<TextBlock Foreground="#FFFFFFFF" Text="User Filter:" TextWrapping="Wrap" Canvas.Left="446" Canvas.Top="42" Visibility="Collapsed"/>
+    	<TextBox Height="20" x:Name="txtUserFilter" Width="116" Padding="0,0,0,0" Canvas.Left="514" Canvas.Top="40" Text="" TextWrapping="Wrap" Visibility="Collapsed"/>
+    	<Button Height="23" Width="99" Canvas.Left="653" Canvas.Top="39" Content="Update" x:Name="btnUpdateTable" FontSize="12"/>
+    	<ScrollViewer Height="457" Width="910" Canvas.Left="10" Canvas.Top="70.5" Margin="0,0,0,0" x:Name="svJobs" Background="#FF333333">
+    		<StackPanel Height="Auto" Width="Auto" x:Name="spJobs"/>
+    	</ScrollViewer>
+        <SMT:ucDeepZoomViewer x:Name="dzvMain" Canvas.Left="0" Canvas.Top="0" Width="930" Height="475" Visibility="Collapsed" />
+        <Canvas x:Name="cvWaitAnimation" Width="64" Height="64" Canvas.Top="492" Canvas.Left="864" Background="Transparent">
+		  <Canvas.RenderTransform>
+		    <ScaleTransform CenterX="0" CenterY="0" ScaleX=".5" ScaleY=".5" />
+		  </Canvas.RenderTransform>
+		</Canvas>
+    </Canvas>
+</UserControl>

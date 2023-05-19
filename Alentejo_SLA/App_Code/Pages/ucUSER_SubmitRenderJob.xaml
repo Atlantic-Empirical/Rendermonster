@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucUSER_SubmitRenderJob"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:SMT="clr-namespace:SMT.Alentejo_SLA"
+    Width="930" Height="540" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <Canvas x:Name="LayoutRoot" Background="Black">
+
+    	<TextBlock Height="Auto" Width="Auto" Canvas.Left="21" Canvas.Top="6" TextWrapping="Wrap" FontSize="24" FontWeight="Bold" Foreground="#FFFFFFFF" Text="NewRenderJob"/>
+
+    		<Canvas x:Name="cvJobProfile" Height="497" Width="811.843" Canvas.Left="-851.597" Canvas.Top="60.5">
+   				<TextBlock Height="29" Width="Auto" TextWrapping="Wrap" FontSize="22" Canvas.Left="21.342" Canvas.Top="-4.137" x:Name="lblJobProfiles"><Run FontStyle="Italic" FontWeight="Bold" Foreground="#FFFFFFFF" Text="Job Profile"/><LineBreak/></TextBlock>
+            	<SMT:ucRenderJobOptions_General x:Name="GeneralOptions" Canvas.Top="46" Canvas.Left="25.5" />
+            	<SMT:ucRenderJobOptions_Alentejo x:Name="AlentejoOptions" Canvas.Top="198" Canvas.Left="25.5" />
+            	<SMT:ucRenderJobOptions_Maxwell x:Name="MaxwellOptions" Canvas.Top="46.5" Canvas.Left="294" />
+   				<Button Height="97" Width="216" Content="Submit Render Job" x:Name="btnSubmitRenderJob" FontSize="18" FontWeight="Bold" FontFamily="Portable User Interface" FontStyle="Normal" Cursor="Hand" Canvas.Left="566.5" Canvas.Top="329.5"/>
+    		</Canvas>
+    		<Canvas Height="443" Width="584" Canvas.Left="170" Canvas.Top="59" x:Name="cvJobFileUpload">
+ 
+    			<TextBlock Height="20.364" Width="Auto" FontFamily="Portable User Interface" FontWeight="Bold" Foreground="#FFFFFFFF" Text="JOB NAME:" TextWrapping="Wrap" FontSize="14" Canvas.Left="11" Canvas.Top="51.5"/>
+    			<TextBox Height="27" Width="480" Text="" TextWrapping="Wrap" FontSize="14" x:Name="txtJobName" Canvas.Left="103" Canvas.Top="48"/>
+
+    			<TextBlock Height="16" Width="Auto" FontFamily="Portable User Interface" FontWeight="Bold" Foreground="#FFFFFFFF" Text="MODEL FILE:" TextWrapping="Wrap" FontSize="14" Canvas.Top="86.5" Canvas.Left="-3.5"/>
+    			<TextBox Height="27" Width="385" Text="" TextWrapping="Wrap" FontSize="14" x:Name="txtMXSPath" IsReadOnly="True" Canvas.Left="103" Canvas.Top="83"/>
+    			<Button Height="25" Width="90" Content="Browse" Cursor="Hand" x:Name="btnBrowse" Canvas.Left="494" Canvas.Top="84"/>
+
+    			<TextBlock Height="20.364" Width="Auto" FontFamily="Portable User Interface" FontWeight="Bold" Foreground="#FFFFFFFF" Text="PATH FILES:" TextWrapping="Wrap" FontSize="14" Canvas.Top="118.5"/>
+    			<ListBox Height="196" Width="478" x:Name="lbPathFiles" Canvas.Left="104" Canvas.Top="119"/>
+    			<Button Height="25" Width="24" Content="+" Cursor="Hand" x:Name="btnPathFiles_Add" Canvas.Left="479" Canvas.Top="320"/>
+    			<Button Height="25" Width="24" Content="-" Cursor="Hand" x:Name="btnPathFiles_RemoveSelected" Canvas.Left="509" Canvas.Top="320"/>
+    			<Button Height="25" Width="43" Content="Clear" Cursor="Hand" x:Name="btnPathFiles_Clear" Canvas.Left="539" Canvas.Top="320"/>
+    			<Button Height="64" Width="481" Content="Upload Job Files" x:Name="btnUploadJobFiles" FontSize="18" FontWeight="Bold" FontFamily="Portable User Interface" FontStyle="Normal" Cursor="Hand" Canvas.Left="103" Canvas.Top="368"/>
+    			<TextBlock Height="21" Width="60" Text="adsf" TextWrapping="Wrap" Foreground="#FF000000" TextAlignment="Right" FontSize="16" FontWeight="Bold" FontFamily="Portable User Interface" x:Name="lblProgress" Canvas.Left="291" Canvas.Top="408"/>
+    			<Rectangle Height="64" Width="1" Fill="#99137016" Stroke="#FF000000" x:Name="rtProgress" Canvas.Left="103" Canvas.Top="368"/>
+    			<TextBlock Height="32" Width="Auto" TextWrapping="Wrap" FontSize="22" x:Name="lblUploadJobFiles" Canvas.Left="4.342" Canvas.Top="0.863" FontWeight="Bold" Foreground="#FFFFFFFF" Text="Job Files"/>
+ 
+    		</Canvas>
+
+   </Canvas>
+</UserControl>

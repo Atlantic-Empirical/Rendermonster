@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.InputBox_dlg"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="200" Height="90" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+		<Border BorderThickness="4,4,4,4" BorderBrush="#FF415391" CornerRadius="2,2,2,2" Margin="0,0,0,0">
+			<Canvas Background="Black">
+				<TextBlock Height="17" VerticalAlignment="Top" Text="[]" TextWrapping="Wrap" Foreground="#FFFFFFFF" Canvas.Top="3" Canvas.Left="5" x:Name="lblTitle"/>
+				<TextBox Text="" TextWrapping="Wrap" d:LayoutOverrides="VerticalAlignment" Canvas.Top="24" Canvas.Left="4" Width="183" x:Name="txtInputBox"/>
+				<Button Height="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="80" Content="OK" Canvas.Top="52" Canvas.Left="107" x:Name="btnOK"/>
+				<Button Height="24" VerticalAlignment="Bottom" Content="Cancel" Canvas.Left="26" Canvas.Top="52" Width="77" x:Name="btnCancel"/>
+			</Canvas>
+		</Border>
+	</Grid>
+</UserControl>

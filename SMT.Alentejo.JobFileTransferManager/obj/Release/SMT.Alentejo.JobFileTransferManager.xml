@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Alentejo.JobFileTransferManager
+</name>
+</assembly>
+<members>
+<member name="T:SMT.Alentejo.JobFileTransferManager.InstanceMonitor_Main">
+	<summary>
+ There are two distinct activities in this form:
+    1) Monitoring the jobs-needing-instances queue and running the start-instance-logic
+    2) Monitoring the instances-domain and providing information about the active instances.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SMT.Alentejo.JobFileTransferManager.JobFileTransferManager_Main.ProcessFileTransferJobMessage(System.String)">
+	<summary>
+ NOTE: This method is run on a worker thread.
+ </summary>
+	<param name="JobId"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

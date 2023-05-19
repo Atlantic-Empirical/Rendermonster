@@ -1,0 +1,26 @@
+HKCR
+{
+	MaxwellSDKWrapper.Wrapper.1 = s 'Wrapper Class'
+	{
+		CLSID = s '{5E54DFA4-65C5-4FC3-AEC0-C1A66D4E7B46}'
+	}
+	MaxwellSDKWrapper.Wrapper = s 'Wrapper Class'
+	{
+		CLSID = s '{5E54DFA4-65C5-4FC3-AEC0-C1A66D4E7B46}'
+		CurVer = s 'MaxwellSDKWrapper.Wrapper.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {5E54DFA4-65C5-4FC3-AEC0-C1A66D4E7B46} = s 'Wrapper Class'
+		{
+			ProgID = s 'MaxwellSDKWrapper.Wrapper.1'
+			VersionIndependentProgID = s 'MaxwellSDKWrapper.Wrapper'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{7C4C2825-9656-48AE-952A-A1099CB4A437}'
+		}
+	}
+}

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.AWS.Authorization
+</name>
+</assembly>
+<members>
+<member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.#ctor">
+	<remarks/>
+</member><member name="E:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateSignatureCompleted">
+	<remarks/>
+</member><member name="E:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.EncodeCanonicalCompleted">
+	<remarks/>
+</member><member name="E:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateAuthHeaderCompleted">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateSignature(System.String,System.String[],System.String[],System.String@)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateSignatureAsync(System.String,System.String[],System.String[],System.String)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateSignatureAsync(System.String,System.String[],System.String[],System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.EncodeCanonical(System.String,System.String,System.Boolean,System.String@)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.EncodeCanonicalAsync(System.String,System.String,System.Boolean,System.String)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.EncodeCanonicalAsync(System.String,System.String,System.Boolean,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateAuthHeader(System.String,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String,System.String@)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateAuthHeaderAsync(System.String,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String,System.String)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CreateAuthHeaderAsync(System.String,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.wsSMT_AWS_Authentication">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.remote_Authentication.eAuthorizationResultCodes.False">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.remote_Authentication.eAuthorizationResultCodes.True">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.remote_Authentication.eAuthorizationResultCodes.Success">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.remote_Authentication.eAuthorizationResultCodes.Generic_Failure">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.remote_Authentication.eAuthorizationResultCodes.Not_Authorized">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.eAuthorizationResultCodes">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.CreateSignatureCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.remote_Authentication.CreateSignatureCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.remote_Authentication.CreateSignatureCompletedEventArgs.Signature">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.CreateSignatureCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.EncodeCanonicalCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.remote_Authentication.EncodeCanonicalCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.remote_Authentication.EncodeCanonicalCompletedEventArgs.Signature">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.EncodeCanonicalCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.CreateAuthHeaderCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.remote_Authentication.CreateAuthHeaderCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.remote_Authentication.CreateAuthHeaderCompletedEventArgs.outAuthHeader">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.remote_Authentication.CreateAuthHeaderCompletedEventArgs">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.#ctor">
+	<remarks/>
+</member><member name="E:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateSignatureCompleted">
+	<remarks/>
+</member><member name="E:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.EncodeCanonicalCompleted">
+	<remarks/>
+</member><member name="E:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateAuthHeaderCompleted">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateSignature(System.String,System.String[],System.String[])">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateSignatureAsync(System.String,System.String[],System.String[])">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateSignatureAsync(System.String,System.String[],System.String[],System.Object)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.EncodeCanonical(System.String,System.String,System.Boolean,System.String@)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.EncodeCanonicalAsync(System.String,System.String,System.Boolean,System.String)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.EncodeCanonicalAsync(System.String,System.String,System.Boolean,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateAuthHeader(System.String,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String,System.String@)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateAuthHeaderAsync(System.String,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String,System.String)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CreateAuthHeaderAsync(System.String,System.String,System.String,System.String[],System.String[],System.String[],System.String[],System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.wsSMT_AWS_Authentication">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.localhost_AWS_Authentication.eAuthorizationResultCodes.False">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.localhost_AWS_Authentication.eAuthorizationResultCodes.True">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.localhost_AWS_Authentication.eAuthorizationResultCodes.Success">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.localhost_AWS_Authentication.eAuthorizationResultCodes.Generic_Failure">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.localhost_AWS_Authentication.eAuthorizationResultCodes.Not_Authorized">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.eAuthorizationResultCodes">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.CreateSignatureCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.localhost_AWS_Authentication.CreateSignatureCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.CreateSignatureCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.EncodeCanonicalCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.localhost_AWS_Authentication.EncodeCanonicalCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.localhost_AWS_Authentication.EncodeCanonicalCompletedEventArgs.Signature">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.EncodeCanonicalCompletedEventArgs">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.CreateAuthHeaderCompletedEventHandler">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.localhost_AWS_Authentication.CreateAuthHeaderCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:SMT.AWS.Authorization.localhost_AWS_Authentication.CreateAuthHeaderCompletedEventArgs.outAuthHeader">
+	<remarks/>
+</member><member name="T:SMT.AWS.Authorization.localhost_AWS_Authentication.CreateAuthHeaderCompletedEventArgs">
+	<remarks/>
+</member><member name="F:SMT.AWS.Authorization.cSMT_AWS_AUTH.AccessKeyId">
+	<summary>
+ If a client uses either the accesskeyid or the secretaccesskey directly they must
+ be in a 'full trust' environment in which they have constructed this class with their values.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:SMT.AWS.Authorization.cSMT_AWS_AUTH">
+	<summary>
+ This class is intended to compartamentalize and protect ALL functionality that involves the secret key.
+ Wherever one of the SMT.AWS libraries are consumed once of these must be created and used as well.
+ THE CLIENT APPLICATION MUST PROVIDE THE ACCESS KEY OR ELSE THIS CLASS WILL CALL THE AUTH SERVER
+ WHICH WILL HAVE INSTANTIATED THIS CLASS WITH THE ACCESS KEY.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.Authorization.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMT.AWS.Authorization.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMT.AWS.Authorization.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

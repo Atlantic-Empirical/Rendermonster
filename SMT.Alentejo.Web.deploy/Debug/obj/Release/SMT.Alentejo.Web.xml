@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Alentejo.Web
+</name>
+</assembly>
+<members>
+<member name="M:SMT.Alentejo.Web.AsyncOperation.CompressStream(Xceed.Zip.ReaderWriter.ZipItemLocalHeader,System.IO.Stream,System.IO.Stream)">
+	<summary>
+ Compress the streamToCompress into the compressedStream.
+ </summary>
+	<param name="itemHeader">The ZipItemLocalHeader defining parameters to use for compression.</param>
+	<param name="streamToCompress">The stream to compress.</param>
+	<param name="compressedStream">The stream conatining the compressed data.</param>
+</member><member name="M:SMT.Alentejo.Web.AsyncOperation.zipWriter_ByteProgression(System.Object,Xceed.Zip.ReaderWriter.ZipWriterByteProgressionEventArgs)">
+	<summary>
+ Event handler for ZipWriter ByteProgression event
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="P:SMT.Alentejo.Web.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMT.Alentejo.Web.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMT.Alentejo.Web.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SMT.Alentejo.Web.AlentejoAuthService.Login(System.String,System.String)">
+	<summary>
+ Authenticates credentials, if good, returns sessionId.
+ </summary>
+	<param name="Username"></param>
+	<param name="PasswordHash"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:SMT.Alentejo.Web._Default.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMT.Alentejo.Web._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMT.Alentejo.Web._Default.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMT.Alentejo.Web._Default.Xaml1">
+	<summary>
+Xaml1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:SMT.Alentejo.Web._Default.ifDownloader">
+	<summary>
+ifDownloader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:SMT.Alentejo.Web.AlentejoJobService.MX_SubmitJob(System.String,SMT.Alentejo.Core.JobManagement.cSMT_ATJ_RenderJob_Maxwell)">
+	<summary>
+ Method for user submission of Maxwell render job metadata.
+ </summary>
+	<param name="MJ"></param>
+	<returns>The new Job.Id (GUID string)</returns>
+	<remarks></remarks>
+</member><member name="M:SMT.Alentejo.Web.AlentejoJobService.GetDeepZoopXMLPathForJob(System.String,System.Boolean,System.String)">
+	<summary>
+ Returns the relative path to the DeepZoom XML that has been created for this image.
+ </summary>
+	<param name="JobId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMT.Alentejo.Web.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:SMT.Alentejo.Web.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:SMT.Alentejo.Web.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:SMT.Alentejo.Web.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:SMT.Alentejo.Web.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:SMT.Alentejo.Web.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

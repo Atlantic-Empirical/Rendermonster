@@ -1,0 +1,361 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Alentejo_SLA
+</name>
+</assembly>
+<members>
+<member name="M:SMT.Alentejo_SLA.RootPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucImageBrowser.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.InputBox_dlg.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucUSER_SubmitRenderJob.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucJobViewerConsoleItem.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucSignup.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucJobViewer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.elJobItemRow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucUSER_Billing.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucMessageBox.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucWatermark.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucDeepZoomTesting.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucHome.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucLoginPanel.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucJobBrowser.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucRenderJobOptions_Alentejo.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucRenderJobOptions_Maxwell.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucUSER_Home.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucWaitAnimation.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucRenderJobOptions_General.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:SMT.Alentejo_SLA.ucDeepZoomViewer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.MaxDuration">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.SampleCount">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.SampleCount_PerNode">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.ActiveCamera">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.CameraNames">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.AnimationFrames">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.CreateMultilight">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.RenderTextures">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_Render">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_Shadow">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_Alpha">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_Alpha_Opaque">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_MaterialId">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_ObjectId">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_ZBuffer">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_ZBuffer_min">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Channels_ZBuffer_max">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.Vignetting">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.ScatteringLens">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.UsePreviewEngine">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell.MultilightId">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Maxwell">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.SCHEMA_VERSION">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Id">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.UserId">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Name">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.JobFileNames">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.JobFileGuids">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.FinalImageId">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base._Status">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Submitted_Ticks">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.StartedRendering_Ticks">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Completed_Ticks">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.CoresRequested">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.MasterInstanceId">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.RenderNodeInstanceIds">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.MaxCost">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.EmailSamples">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Width">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Height">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.OutputImageFormat">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.TerminateFlag">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Charges">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base.Status">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_RenderJob_Base">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Failure_RenderJobFinalization">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Failure_RunMXCL">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Failure_RenderNodeCoordination">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Failure_FileTransferFromS3">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Failure_FileTransferToS3">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Failure_Generic">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.JOB_FAILED">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.NOT_INDICATED">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.PREPROCESSING">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_HaveJobFiles_WaitingForProfile">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_WaitingForJobFileTransferToS3">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_TransferringJobFilesToS3">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_WaitingForInstanceStartLogic">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_InInstanceStartLogic">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_WaitingForMasterRenderInstanceToComeOnline">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_RetrievingJobFiles">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_CheckingForRenderNodes">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_WaitingForRenderNodesToComeOnline">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Preprocessing_FinalJobPrepPreRendering">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.RENDERING">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.POSTPROCESSING">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Postprocessing_InitialActivities">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.Postprocessing_TransferringRenderFilesToS3">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.COMPLETED">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.ARCHIVED">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status.AWAITING_TERMINATION">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.eSMT_ATJ_RenderJob_Status">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage._Type">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.Id">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.JobId">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.Message">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.Timestamp">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.RenderedImageGuid">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.SampleLevel">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage.Benchmark">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobProgressMessage">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.SCHEMA_VERSION">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.Id">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.FileName">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.JobId">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File._Type">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File._Size">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.SampleLevel">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.Timestamp">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.Resolution">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.IsAvailable">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.Url">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.Type">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File.Size">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_File">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eAtjFileType.NOT_SPECIFIED">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eAtjFileType.Model">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eAtjFileType.Texture">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eAtjFileType.IntermediateOutputImage">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eAtjFileType.FinalOutputImage">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eAtjFileType.MXI">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.eAtjFileType">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo.Id">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo.Name">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo._Status">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo.Status_Public">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo.Submitted_Ticks">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo.Completed_Ticks">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo.Charged">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_LiteJobInfo">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobInfoQuery.DateRange">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobInfoQuery.UserFilter">
+	<remarks/>
+</member><member name="P:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobInfoQuery.StatusFilter">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.cSMT_ATJ_JobInfoQuery">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.All">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.Past_7_Days">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.Past_30_Days">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.Past_90_Days">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.Past_365_Days">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.Last_Week">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.Last_Month">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.Last_Year">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.This_Week">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.This_Month">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eDateRange.This_Year">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.eDateRange">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eStatus.All">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eStatus.Active">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eStatus.Completed">
+	<remarks/>
+</member><member name="F:SMT.Alentejo_SLA.AlentejoJobService.eStatus.Archived">
+	<remarks/>
+</member><member name="T:SMT.Alentejo_SLA.AlentejoJobService.eStatus">
+	<remarks/>
+</member>
+</members>
+</doc>

@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="ucSystemOverview"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="512" Width="898">
+    <Canvas SnapsToDevicePixels="True">
+        <GroupBox Canvas.Left="12" Canvas.Top="12" Header="Jobs" Height="135" Name="gbJobs" Width="219.934">
+            <Canvas>
+                <TextBlock Canvas.Left="3" Canvas.Top="0" Height="20" Name="TextBlock1" Width="100" Text="Jobs in system =" HorizontalAlignment="Stretch" TextAlignment="Right" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="0" Height="20" Name="tbJBS_JobsInSystem" Text="[]" Width="59.982" />
+                <TextBlock Canvas.Left="3" Canvas.Top="15.38" Height="19.994" Name="TextBlock3" Text="Jobs Active =" TextAlignment="Right" Width="100" />
+                <TextBlock Canvas.Left="3" Canvas.Top="32.298" Height="19.994" Name="TextBlock4" Text="Jobs Completed =" TextAlignment="Right" Width="100" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="15.374" Height="20" Name="tbJBS_JobsActive" Text="[]" Width="59.982" />
+                <TextBlock Canvas.Left="108.033" Canvas.Top="32.298" Height="20" Name="tbJBS_JobsCompleted_7days" Text="[]" Width="36" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="47" Height="19.994" Name="tbJBS_JobsCompleted_30days" Text="[]" Width="36" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="61" Height="19.994" Name="tbJBS_JobsCompleted_Quarter" Text="[]" Width="36" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="76.131" Height="19.994" Name="tbJBS_JobsCompleted_YTD" Text="[]" Width="36" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="32.298" Height="20" Name="TextBlock10" Text="7 days" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="47" Height="19.994" Name="TextBlock11" Text="30 days" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="61" Height="19.994" Name="TextBlock12" Text="Quarter" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="76.131" Height="20" Name="TextBlock13" Text="YTD" Width="36.143" />
+                <TextBlock Canvas.Left="3" Canvas.Top="90.742" Height="19.994" Name="TextBlock15" Text="Files =" TextAlignment="Right" Width="100" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="90.742" Height="19.994" Name="tbJBS_FilesInSystem" Text="[]" Width="59.982" />
+            </Canvas>
+        </GroupBox>
+        <GroupBox Canvas.Left="12" Canvas.Top="154.569" Header="Users" Height="139.189" Name="gbUsers" Width="219.934">
+            <Canvas>
+                <TextBlock Canvas.Left="3.076" Canvas.Top="3.076" Height="19.994" Name="TextBlock2" Text="Users Registered =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="3.076" Height="19.994" Name="tbUSR_UsersRegistered" Text="[]" Width="59.982" />
+                <TextBlock Canvas.Left="3.076" Canvas.Top="18.456" Height="19.994" Name="TextBlock6" Text="Users Active =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="18.456" Height="19.994" Name="tbUSR_UsersActive_7days" Text="[]" Width="36.373" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="18.456" Height="20" Name="TextBlock8" Text="7 days" Width="36.143" />
+                <TextBlock Canvas.Left="3.076" Canvas.Top="36.143" Height="19.994" Name="TextBlock9" Text="Sessions =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="52.292" Height="19.994" Name="tbUSR_Sessions_7days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="66.903" Height="19.994" Name="tbUSR_Sessions_30days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="80.745" Height="19.994" Name="tbUSR_Sessions_Quarter" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="96.125" Height="19.994" Name="tbUSR_Sessions_YTD" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="52.292" Height="19.994" Name="TextBlock18" Text="7 days" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="66.903" Height="19.994" Name="TextBlock19" Text="30 days" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="80.745" Height="19.994" Name="TextBlock20" Text="Quarter" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="96.125" Height="19.994" Name="TextBlock21" Text="YTD" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="36.912" Height="19.994" Name="tbUSR_Sessions_Current" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="36.912" Height="19.994" Name="adsf" Text="Current" Width="55.055" />
+            </Canvas>
+        </GroupBox>
+        <GroupBox Canvas.Left="12" Canvas.Top="299.91" Header="Instances" Height="106.891" Name="gbInstances" Width="219.934">
+            <Canvas>
+                <TextBlock Canvas.Left="3.076" Canvas.Top="3.076" Height="19.994" Name="TextBlock5" Text="Instances Active =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="3.076" Height="19.994" Name="tbINS_InstancesActive_Now" Text="[]" Width="33.836" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="18.456" Height="19.994" Name="tbINS_InstancesActive_7days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="18.456" Height="19.994" Name="TextBlock16" Text="7 days" Width="36.143" />
+                <TextBlock Canvas.Left="147.648" Canvas.Top="3.076" Height="19.994" Name="TextBlock14" Text="now" Width="36.143" />
+                <TextBlock Canvas.Left="3.076" Canvas.Top="36.143" Height="19.994" Name="TextBlock17" Text="Instances Max =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="36.143" Height="19.994" Name="tbINS_InstancesMax_7days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="36.143" Height="19.994" Name="TextBlock23" Text="7 days" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="49.985" Height="19.994" Name="tbINS_InstancesMax_30days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="63.827" Height="19.994" Name="tbINS_InstancesMax_Quarter" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="49.985" Height="19.994" Name="TextBlock26" Text="30 days" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="63.827" Height="19.994" Name="TextBlock27" Text="Quarter" Width="46.909" />
+            </Canvas>
+        </GroupBox>
+        <GroupBox Canvas.Left="237.621" Canvas.Top="12" Header="Finances" Height="166.45" Name="gbFinances" Width="220">
+            <Canvas>
+                <TextBlock Canvas.Left="3.076" Canvas.Top="0.006" Height="19.994" Name="TextBlock7" Text="Revenue =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="0.006" Height="20" Name="tbFIN_Revenue_7days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="14.708" Height="19.994" Name="tbFIN_Revenue_30days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="28.708" Height="19.994" Name="tbFIN_Revenue_Quarter" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="43.839" Height="19.994" Name="tbFIN_Revenue_YTD" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="0.006" Height="20" Name="TextBlock28" Text="7 days" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="14.708" Height="19.994" Name="TextBlock29" Text="30 days" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="28.708" Height="19.994" Name="TextBlock30" Text="Quarter" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="43.839" Height="20" Name="TextBlock31" Text="YTD" Width="36.143" />
+                <TextBlock Canvas.Left="3.076" Canvas.Top="61" Height="19.994" Name="TextBlock32" Text="AWS Overhead =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="61" Height="20" Name="tbFIN_AWSOverhead_7days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="75.702" Height="19.994" Name="tbFIN_AWSOverhead_30days" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="89.702" Height="19.994" Name="tbFIN_AWSOverhead_Quarter" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="104.833" Height="19.994" Name="tbFIN_AWSOverhead_YTD" Text="[]" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="61" Height="20" Name="TextBlock37" Text="7 days" Width="36.143" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="75.702" Height="19.994" Name="TextBlock38" Text="30 days" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="89.702" Height="19.994" Name="TextBlock39" Text="Quarter" Width="46.909" />
+                <TextBlock Canvas.Left="146.879" Canvas.Top="104.833" Height="20" Name="TextBlock40" Text="YTD" Width="36.143" />
+                <TextBlock Canvas.Left="3.076" Canvas.Top="119.195" Height="19.994" Name="TextBlock41" Text="Credit In System =" TextAlignment="Right" Width="99.97" />
+                <TextBlock Canvas.Left="107.66" Canvas.Top="119.195" Height="19.994" Name="tbFIN_CreditInSystem" Text="[]" Width="36.143" />
+            </Canvas>
+        </GroupBox>
+        <Button Canvas.Left="822.638" Canvas.Top="488.93" Height="23.07" Name="btnUpdate" Width="75.362">Update</Button>
+    </Canvas>
+</UserControl>

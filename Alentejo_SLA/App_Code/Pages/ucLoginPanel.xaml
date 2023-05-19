@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="SMT.Alentejo_SLA.ucLoginPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="400" Height="88" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d">
+    <Grid x:Name="LayoutRoot" Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" MinHeight="44"/>
+        </Grid.RowDefinitions>
+        <TextBlock Visibility="Collapsed" x:Name="FailureMessage" Text="Login Failed" Foreground="Red" Margin="3,3,3,27" Grid.ColumnSpan="2" Grid.Row="3" d:LayoutOverrides="GridBox"/>
+        <TextBlock Grid.Row="1" Text="Username:" Foreground="white" Margin="3"/>
+        <TextBox Grid.Row="1" x:Name="Username" Grid.Column="1" Margin="3"/>
+        <TextBlock Text="Password:" Foreground="white" Grid.Row="2" Margin="3"/>
+        <PasswordBox x:Name="Password" Grid.Column="1" Grid.Row="2" Margin="3"/>
+        <Button Content="Login" x:Name="ButtonLogin" Cursor="Hand" Grid.ColumnSpan="2" Grid.Row="3" MaxWidth="100" Margin="3,3,3,19"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Alentejo.InstanceDispatcher
+</name>
+</assembly>
+<members>
+<member name="M:SMT.Alentejo.InstanceDispatcher.InstanceDispatcher_Main.ProcessJobNeedsInstanceMessage(System.String)">
+	<summary>
+ NOTE: This method is run on a worker thread.
+ </summary>
+	<param name="JobId"></param>
+	<remarks></remarks>
+</member><member name="M:SMT.Alentejo.InstanceDispatcher.InstanceDispatcher_Main.InstanceTerminationLogic">
+	<summary>
+ This method is all about making Alentejo robust and self-healing. Spend as much time as needed
+ to get the logic and implementation correct.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SMT.Alentejo.InstanceDispatcher.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMT.Alentejo.InstanceDispatcher.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMT.Alentejo.InstanceDispatcher.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

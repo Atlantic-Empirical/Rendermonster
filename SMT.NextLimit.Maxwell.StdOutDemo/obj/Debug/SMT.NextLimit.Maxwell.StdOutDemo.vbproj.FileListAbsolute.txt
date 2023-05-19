@@ -1,0 +1,13 @@
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\bin\Debug\SMT.NextLimit.Maxwell.StdOutDemo.exe
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\bin\Debug\SMT.NextLimit.Maxwell.StdOutDemo.pdb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\bin\Debug\SMT.NextLimit.Maxwell.StdOutDemo.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\bin\Debug\TestConsole.exe
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\bin\Debug\TestConsole.pdb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\bin\Debug\TestConsole.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\obj\Debug\ResolveAssemblyReference.cache
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\obj\Debug\SMT.NextLimit.Maxwell.StdOutDemo.Form1.resources
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\obj\Debug\SMT.NextLimit.Maxwell.StdOutDemo.Resources.resources
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\obj\Debug\SMT.NextLimit.Maxwell.StdOutDemo.vbproj.GenerateResource.Cache
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\obj\Debug\SMT.NextLimit.Maxwell.StdOutDemo.exe
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\obj\Debug\SMT.NextLimit.Maxwell.StdOutDemo.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\SMT.NextLimit.Maxwell.StdOutDemo\obj\Debug\SMT.NextLimit.Maxwell.StdOutDemo.pdb

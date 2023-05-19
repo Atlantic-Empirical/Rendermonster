@@ -1,0 +1,449 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.AWS
+</name>
+</assembly>
+<members>
+<member name="M:SMT.AWS.EC2.cSMT_AWS_EC2.ModifyImageAttribute(System.String,System.String)">
+	<summary>
+ NOT IMPLEMENTED
+ </summary>
+	<param name="AmiId"></param>
+	<param name="ProductCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.EC2.cSMT_AWS_EC2.DescribeImageAttribute(System.String)">
+	<summary>
+ NOT IMPLEMENTED
+ </summary>
+	<param name="AmiId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.EC2.cSMT_AWS_EC2.ResetImageAttribute">
+	<summary>
+ NOT IMPLEMENTED
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.EC2.cSMT_AWS_EC2.RebootInstance(System.String)">
+	<summary>
+ NOT IMPLEMENTED
+ </summary>
+	<param name="InstanceId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.EC2.cSMT_AWS_EC2.FingerprintKey">
+	<summary>
+ NOT IMPLEMENTED
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.EC2.cSMT_AWS_EC2.GetPassword">
+	<summary>
+ NOT IMPLEMENTED
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:SMT.AWS.EC2.eInstanceType">
+	<summary>
+ Replace underscore with period to get valid EC2 strings.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.AWS_Helper.DateTo_ISO8601">
+	<summary>
+ Returns the UTC time in the ISO 8601 format.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMT.AWS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SMT.AWS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SMT.AWS.SQS.cSMT_AWS_SQS.CreateQueue(System.String,System.Int32)">
+	<summary>
+  If the queue doesn't exist, it will create it.
+ </summary>
+	<param name="QueueName"></param>
+	<returns>Returns the url for a queue with the name provided.</returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SQS.cSMT_AWS_SQS.SetQueueAttributes(System.String,System.Collections.Generic.List{Amazon.SQS.Model.Attribute})">
+	<summary>
+ This method should later be modified to accept an key-value array that it converts into a SQA.
+ </summary>
+	<param name="QueueURL"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SQS.cSMT_AWS_SQS.GetQueueAttributes(System.String,System.Collections.Generic.List{System.String})">
+	<summary>
+ This method is not complete. Need to study the response and decide what to return.
+ </summary>
+	<param name="QueueURL"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SQS.cSMT_AWS_SQS.SendMessage(System.String,System.String)">
+	<summary>
+ Enqueue the provided string message onto the queue located at url.
+ </summary>
+	<param name="queueURL"></param>
+	<param name="message"></param>
+	<returns>MessageId</returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SQS.cSMT_AWS_SQS.DeleteMessage(System.String,System.String)">
+	<summary>
+ Delete the message from the queue at the specified url.
+ </summary>
+	<param name="queueURL"></param>
+	<param name="ReceiptHandle"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:SMT.AWS.EC2.OnInstance_Utilities.LOCAL_RENDERING">
+	<summary>
+ Unset this when moving to EC2 instance.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.EC2.OnInstance_Utilities._InstanceId">
+	<summary>
+ Returns the EC2 instance-id for this instance.
+ Example output:
+ i-abc1234
+ NOTE: Call once and store value in local code.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.EC2.OnInstance_Utilities._LocalIp">
+	<summary>
+ Returns the EC2-internal IP address for this EC2 instance.
+ Example output:
+ 216.182.234.123
+ NOTE: Call once and store value in local code.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.EC2.OnInstance_Utilities._PublicIp">
+	<summary>
+ Returns the external IP address for this EC2 instance.
+ Example output:
+ 216.182.234.123
+ NOTE: Call once and store value in local code.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.EC2.OnInstance_Utilities._LocalHostname">
+	<summary>
+ Returns the local DNS hostname for this EC2 instance.
+ NOTE: Call once and store value in local code.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.EC2.OnInstance_Utilities._PublicHostname">
+	<summary>
+ Returns the public DNS hostname for this EC2 instance.
+ Example output:
+ 216.182.234.123
+ NOTE: Call once and store value in local code.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.ListBuckets">
+	<summary>
+ Returns a list of all buckets for the active user.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.CreateBucket(System.String,SMT.AWS.S3.eBucketLocation)">
+	<summary>
+ Creates a new bucket in the specified location.
+ </summary>
+	<param name="bucketName"></param>
+	<param name="Location"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.DeleteBucket(System.String,System.Boolean)">
+	<summary>
+ Deletes the specified bucket.
+ </summary>
+	<param name="bucketName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.ListBucketContents(System.String,System.Boolean)">
+	<summary>
+ Returns a list of contents of a specified bucket.
+ </summary>
+	<param name="bucketName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetBucketAccessControlPolicy(System.String,System.Boolean)">
+	<summary>
+ Returns the access control information for a specified bucket.
+ </summary>
+	<param name="BucketName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.SetBucketAccessControlPolicy(System.String,SMT.AWS.S3.eCannedACL,System.Boolean)">
+	<summary>
+ Sets the access control policy for a specified bucket.
+ </summary>
+	<param name="BucketName"></param>
+	<param name="CannedACL"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetBucketLoggingStatus">
+	<summary>
+ Not implemented.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.SetBucketLoggingStatus">
+	<summary>
+ Not implemented.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.PutObjectInline">
+	<summary>
+ Not implemented.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.PutObject">
+	<summary>
+ Not implemented.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.CopyObject(System.String,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Copies an object from one bucket to another.
+ </summary>
+	<param name="sourceBucketName"></param>
+	<param name="sourceKey"></param>
+	<param name="destinationBucketName"></param>
+	<param name="destinationKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetObject">
+	<summary>
+ Not implemented.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetObjectExtended">
+	<summary>
+ Not implemented.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.DeleteObject(System.String,System.String,System.Boolean)">
+	<summary>
+ Deletes the specified object.
+ </summary>
+	<param name="bucketName"></param>
+	<param name="keyName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetObjectAccessControlPolicy(System.String,System.String,System.Boolean)">
+	<summary>
+ Returns the access control policy for the specified object.
+ </summary>
+	<param name="BucketName"></param>
+	<param name="ObjectKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.SetObjectAccessControlPolicy(System.String,System.String,SMT.AWS.S3.eCannedACL,System.Boolean)">
+	<summary>
+ Sets the access control policy for the specified object.
+ </summary>
+	<param name="BucketName"></param>
+	<param name="ObjectKey"></param>
+	<param name="CannedACL"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SMT.AWS.S3.cSMT_AWS_S3.ObjectExists(System.String,System.String)">
+	<summary>
+ Verfies that a specified object exists.
+ </summary>
+	<param name="BucketName"></param>
+	<param name="ObjectKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetBucketLocation(System.String)">
+	<summary>
+ Not implemented.
+ </summary>
+	<param name="BucketName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetObjectUrl_Signed(System.String,System.String,System.Int64,System.DateTime,System.Boolean)">
+	<summary>
+ Returns a Url for a specified object.
+ </summary>
+	<param name="BucketName"></param>
+	<param name="ObjectKey"></param>
+	<param name="ExpiresInSeconds"></param>
+	<param name="ExpiresDT"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetObjectUrl_Unsigned(System.String,System.String,System.Boolean)">
+	<summary>
+ Returns a Url for a specified object.
+ </summary>
+	<param name="BucketName"></param>
+	<param name="ObjectKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.AddStringObject(System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Adds a string as an object to the specified bucket with the specified object key.
+ Derived from ThreeSharpWrapper.cs
+ </summary>
+	<param name="BucketName"></param>
+	<param name="ObjectKey"></param>
+	<param name="data"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.AddFileObject(System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Adds a file as an object to the specified bucket with the specified object key.
+ Derived from ThreeSharpWrapper.cs
+ Recommended for small files.
+ </summary>
+	<param name="bucketName"></param>
+	<param name="keyName"></param>
+	<param name="localfilepath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.AddEncryptFileObject(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Adds a file as an object to the specified bucket with the specified object key and encrypts it before upload.
+ Derived from ThreeSharpWrapper.cs
+ Recommended for small files.
+ </summary>
+	<param name="bucketName"></param>
+	<param name="keyName"></param>
+	<param name="localfile"></param>
+	<param name="encryptionKey"></param>
+	<param name="encryptionIV"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetStringObject(System.String,System.String,System.Boolean)">
+	<summary>
+ Retrieves the specified object as a string.
+ Derived from ThreeSharpWrapper.cs
+ </summary>
+	<param name="bucketName"></param>
+	<param name="keyName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetFileObject(System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Retrieves the specified object and streams it to a local file.
+ Derived from ThreeSharpWrapper.cs
+ </summary>
+	<param name="bucketName"></param>
+	<param name="keyName"></param>
+	<param name="localfilepath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetDecryptFileObject(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Retrieves the specified object and streams it to a local file while decrypting it.
+ Derived from ThreeSharpWrapper.cs
+ </summary>
+	<param name="bucketName"></param>
+	<param name="keyName"></param>
+	<param name="localfile"></param>
+	<param name="encryptionKey"></param>
+	<param name="encryptionIV"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.S3.cSMT_AWS_S3.GetRedirectURL(Affirma.ThreeSharp.IThreeSharp,System.String,System.String)">
+	<summary>
+ The first thing we need to do is check for the presence of a Temporary Redirect. These occur for a few 
+ minutes after an EU bucket is created, while S3 creates the DNS entries.
+ </summary>
+	<param name="BucketName"></param>
+	<param name="ObjectKey"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SDB.cSMT_AWS_SDB.PutAttributes(System.Collections.Generic.List{Amazon.SimpleDB.Model.ReplaceableAttribute},System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="Attributes"></param>
+	<param name="ItemName"></param>
+	<param name="DomainName"></param>
+	<returns>Box usage.</returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SDB.cSMT_AWS_SDB.SetItemAttribute(System.String,System.String,System.String,System.String)">
+	<summary>
+ Proxy for PutAttributes() to make it even easier to call.
+ </summary>
+	<param name="DomainName"></param>
+	<param name="ItemName"></param>
+	<param name="AttributeName"></param>
+	<param name="AttributeValue"></param>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SDB.cSMT_AWS_SDB.GetItemAttribute(System.String,System.String,System.String)">
+	<summary>
+ Only returns ONE (the first) value for the provided attribute name.
+ Does not support the case where there are multiple attributes with the same name (which 
+ is supported by SDB).
+ </summary>
+	<param name="DomainName"></param>
+	<param name="ItemName"></param>
+	<param name="AttributeName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:SMT.AWS.SDB.cSMT_AWS_SDB_QueryPredicate">
+	<summary>
+ This class produces text like:
+    ['Title' = 'The Right Stuff']
+    ['Year' &gt; '1975' and 'Year' != '1993'] 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:SMT.AWS.SDB.cSMT_AWS_SDB_QueryAttributeCompare">
+	<summary>
+ This class produces a string like this "'city' = 'seattle'"
+ </summary>
+	<remarks></remarks>
+</member><member name="T:SMT.AWS.SDB.cSMT_AWS_SDB_QuerySort">
+	<summary>
+ This class produces a string like this "sort 'year' asc"
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SDB.SMT_AWS_SDB_ObjectSerialization.Serialize(System.Object)">
+	<summary>
+ This function prepares an object for storage in AWS SDB by collecting all
+ of its fields into a List of KeyValuePair that is easily converted into a
+ List of ReplaceableAttribute.
+ 
+ NOTE: This method does not support Property values. 
+ NOTE: Only Strings are supported in classes to be serialized/deserialized.
+ </summary>
+	<param name="O"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.AWS.SDB.SMT_AWS_SDB_ObjectSerialization.Deserialize``1(System.Collections.Generic.List{Amazon.SimpleDB.Model.Attribute},``0@)">
+	<summary>
+ This function intantiates an object with attributes from an SDB item.
+
+ NOTE: This method does not support Property values. 
+ NOTE: Only Strings are supported in classes to be serialized/deserialized.
+ </summary>
+	<typeparam name="T"></typeparam>
+	<param name="Attributes"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

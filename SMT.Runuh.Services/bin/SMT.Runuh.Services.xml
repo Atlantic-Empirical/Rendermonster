@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMT.Runuh.Services
+</name>
+</assembly>
+<members>
+<member name="M:SMT.Runuh.Services.SessionAPI.GetSessionToken(System.String,System.String,System.String@)">
+	<summary>
+ Authenticates credentials, if good, returns sessionId.
+ </summary>
+	<param name="Username"></param>
+	<param name="PasswordHash"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.Runuh.Services.JobAPI.GetDeepZoopXMLPathForJob(System.String,System.String,System.Boolean,System.String,System.String@)">
+	<summary>
+ Returns the relative path to the DeepZoom XML that has been created for this image.
+ </summary>
+	<param name="JobId"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SMT.Runuh.Services.MaxwellAPI.SubmitJob(System.String,SMT.Alentejo.Core.JobManagement.cSMT_ATJ_RenderJob_Maxwell,System.String@)">
+	<summary>
+ Method for user submission of Maxwell render job metadata.
+ </summary>
+	<param name="MJ"></param>
+	<returns>The new Job.Id (GUID string)</returns>
+	<remarks></remarks>
+</member><member name="P:SMT.Runuh.Services.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:SMT.Runuh.Services.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:SMT.Runuh.Services.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:SMT.Runuh.Services.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:SMT.Runuh.Services.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:SMT.Runuh.Services.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

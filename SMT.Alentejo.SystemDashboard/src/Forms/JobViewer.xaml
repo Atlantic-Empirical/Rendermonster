@@ -1,0 +1,15 @@
+﻿<Window x:Class="JobViewer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:SMT="clr-namespace:SMT.Alentejo.SystemDashboard"
+    Title="JobViewer" Height="531" Width="923" ResizeMode="CanMinimize" ShowInTaskbar="False">
+    <Canvas Height="487" Width="896">
+        <TabControl Canvas.Left="0" Canvas.Top="0" Height="490" Width="896" Name="TabControl1" >
+            <TabItem Header="Overview" Name="tpOverview">
+            </TabItem>
+            <TabItem Header="Viewer" Name="tpViewer">
+                <SMT:ucJobViewer x:Name="jobViewer" />
+            </TabItem>
+        </TabControl>
+    </Canvas>
+</Window>

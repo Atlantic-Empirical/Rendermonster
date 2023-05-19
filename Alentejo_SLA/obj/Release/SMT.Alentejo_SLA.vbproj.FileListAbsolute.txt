@@ -1,0 +1,122 @@
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\AppManifest.xaml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\SMT.Alentejo_SLA.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\SMT.Alentejo_SLA.pdb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\SMT.Alentejo_SLA.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Alentejo_SLA.xap
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\TestPage.html
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Cooper.Silverlight.Controls.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\System.Xml.Serialization.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Http.Silverlight.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Formats.Silverlight.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Silverlight.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Http.Silverlight.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Formats.Silverlight.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Silverlight.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\System.Xml.Serialization.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\de\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\es\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\fr\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\it\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\ja\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\ko\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\zh-Hans\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\zh-Hant\System.Xml.Serialization.resources.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\ResolveAssemblyReference.cache
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Browsing Controls\ucJobBrowser.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Submission Controls\ucRenderJobOptions_Alentejo.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Submission Controls\ucRenderJobOptions_General.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Submission Controls\ucRenderJobOptions_Maxwell.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Viewer Controls\ucJobViewer.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucUSER_BrowseRenderJobs.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucUSER_SubmitRenderJob.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\usUSER_Home.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucSignup.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Page.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucDeepZoomViewer.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucImageBrowser.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucWatermark.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Browsing Controls\elJobItemRow.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucDeepZoomTesting.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Viewer Controls\ucJobViewerConsoleItem.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucHome.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\WaitAnimation\ucWaitAnimation.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.g.resources
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.pdb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\XapCacheFile.xml
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Microsoft.Windows.Controls.dll
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucLoginPanel.g.vb
+T:\SOURCE_CODE_WORKING\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Dialogs\InputBox_dlg.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\AppManifest.xaml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\SMT.Alentejo_SLA.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\SMT.Alentejo_SLA.pdb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\SMT.Alentejo_SLA.xml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Alentejo_SLA.xap
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\TestPage.html
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Cooper.Silverlight.Controls.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Microsoft.Windows.Controls.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\System.Xml.Serialization.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Http.Silverlight.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Formats.Silverlight.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Silverlight.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Http.Silverlight.xml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Formats.Silverlight.xml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\Xceed.Compression.Silverlight.xml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\System.Xml.Serialization.xml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\de\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\es\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\fr\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\it\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\ja\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\ko\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\zh-Hans\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\Bin\Release\zh-Hant\System.Xml.Serialization.resources.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\ResolveAssemblyReference.cache
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Browsing Controls\ucJobBrowser.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Submission Controls\ucRenderJobOptions_Alentejo.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Submission Controls\ucRenderJobOptions_General.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Submission Controls\ucRenderJobOptions_Maxwell.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Viewer Controls\ucJobViewer.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucUSER_SubmitRenderJob.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\usUSER_Home.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucSignup.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Page.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucDeepZoomViewer.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucImageBrowser.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucWatermark.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Dialogs\InputBox_dlg.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Browsing Controls\elJobItemRow.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\DeepZoom Controls\ucDeepZoomTesting.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Job Viewer Controls\ucJobViewerConsoleItem.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucHome.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\ucLoginPanel.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\WaitAnimation\ucWaitAnimation.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.g.resources
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.dll
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.xml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\SMT.Alentejo_SLA.pdb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\XapCacheFile.xml
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\Pages\Dialogs\ucMessageBox.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Dialogs\ucMessageBox.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Job Browsing Controls\ucJobBrowser.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Job Submission Controls\ucRenderJobOptions_Alentejo.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Job Submission Controls\ucRenderJobOptions_General.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Job Submission Controls\ucRenderJobOptions_Maxwell.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Job Viewer Controls\ucJobViewer.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\ucUSER_SubmitRenderJob.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\usUSER_Home.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\ucSignup.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\DeepZoom Controls\ucDeepZoomViewer.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\DeepZoom Controls\ucImageBrowser.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\DeepZoom Controls\ucWatermark.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Dialogs\InputBox_dlg.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Job Browsing Controls\elJobItemRow.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\DeepZoom Controls\ucDeepZoomTesting.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\Job Viewer Controls\ucJobViewerConsoleItem.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\ucHome.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\ucLoginPanel.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\ucUSER_Billing.g.vb
+T:\CODE\SMT\Solutions\ALENTEJO\Alentejo_SLA\obj\Release\App_Code\Pages\WaitAnimation\ucWaitAnimation.g.vb

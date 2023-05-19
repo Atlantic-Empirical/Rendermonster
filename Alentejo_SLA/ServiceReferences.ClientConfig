@@ -1,0 +1,24 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="AlentejoJobServiceSoap" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+                <binding name="AlentejoAuthServiceSoap" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:49365/Services/AlentejoJobService.asmx"
+                binding="basicHttpBinding" bindingConfiguration="AlentejoJobServiceSoap"
+                contract="AlentejoJobService.AlentejoJobServiceSoap" name="AlentejoJobServiceSoap" />
+            <endpoint address="http://localhost:49365/Services/AlentejoAuthService.asmx"
+                binding="basicHttpBinding" bindingConfiguration="AlentejoAuthServiceSoap"
+                contract="AlentejoAuthService.AlentejoAuthServiceSoap" name="AlentejoAuthServiceSoap" />
+        </client>
+    </system.serviceModel>
+</configuration>
